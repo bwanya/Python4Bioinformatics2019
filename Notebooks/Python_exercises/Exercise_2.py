@@ -1,6 +1,11 @@
 #!/home/user/miniconda3/bin/python
 
-## Exercise 2 The square of prime numbers between 1&100
+## Finding the first, last and the 5th amino acids in the sequence 'MNKMDLVADVAEKTDLSKAKATEVIDAVFA'
 
-Prime_numbers=range(1,100)
-[i**2 for i in range(1,100) if i%3==0]
+s = "MNKMDLVADVAEKTDLSKAKATEVIDAVFA"
+print ("first amino acid sequence is", s[0])
+print ("Fifth amino acid sequence is", s[5 -1])
+
+
+## Finding the first restriction site in the sequence 'AAAAATCCCGAGGCGGCTATATAGGGCTCCGGAGGCGTAATATAAAA'
+
